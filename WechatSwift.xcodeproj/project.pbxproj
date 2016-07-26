@@ -13,17 +13,70 @@
 		5DF8FFB51D474DB8007E34FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFB31D474DB8007E34FC /* Main.storyboard */; };
 		5DF8FFB71D474DB8007E34FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFB61D474DB8007E34FC /* Assets.xcassets */; };
 		5DF8FFBA1D474DB8007E34FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFB81D474DB8007E34FC /* LaunchScreen.storyboard */; };
+		5DF8FFC71D47523B007E34FC /* TSAppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFC61D47523B007E34FC /* TSAppMacro.swift */; };
+		5DF8FFCB1D47562F007E34FC /* TSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFCA1D47562F007E34FC /* TSConfig.swift */; };
+		5DF8FFD01D4758BD007E34FC /* TSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFCF1D4758BD007E34FC /* TSModel.swift */; };
+		5DF8FFD21D475C83007E34FC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFD11D475C83007E34FC /* Media.xcassets */; };
+		5DF8FFD41D475C8A007E34FC /* country_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFD31D475C8A007E34FC /* country_code.txt */; };
+		5DF8FFE21D475C8E007E34FC /* shake_sound_male.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFD51D475C8E007E34FC /* shake_sound_male.wav */; };
+		5DF8FFE31D475C8E007E34FC /* sendmsg.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFD61D475C8E007E34FC /* sendmsg.caf */; };
+		5DF8FFE41D475C8E007E34FC /* pstncall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFD71D475C8E007E34FC /* pstncall.mp3 */; };
+		5DF8FFE51D475C8E007E34FC /* msg.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFD81D475C8E007E34FC /* msg.caf */; };
+		5DF8FFE61D475C8E007E34FC /* msgtoolong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFD91D475C8E007E34FC /* msgtoolong.wav */; };
+		5DF8FFE71D475C8E007E34FC /* close.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFDA1D475C8E007E34FC /* close.wav */; };
+		5DF8FFE81D475C8E007E34FC /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFDB1D475C8E007E34FC /* beep.wav */; };
+		5DF8FFE91D475C8E007E34FC /* call.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFDC1D475C8E007E34FC /* call.caf */; };
+		5DF8FFEA1D475C8E007E34FC /* camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFDD1D475C8E007E34FC /* camera.wav */; };
+		5DF8FFEB1D475C8E007E34FC /* hello.amr in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFDE1D475C8E007E34FC /* hello.amr */; };
+		5DF8FFEC1D475C8E007E34FC /* shake_match.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFDF1D475C8E007E34FC /* shake_match.wav */; };
+		5DF8FFED1D475C8E007E34FC /* shake_nomatch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFE01D475C8E007E34FC /* shake_nomatch.wav */; };
+		5DF8FFF21D475C93007E34FC /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFEE1D475C93007E34FC /* chat.json */; };
+		5DF8FFF31D475C93007E34FC /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFEF1D475C93007E34FC /* contact.json */; };
+		5DF8FFF41D475C93007E34FC /* message.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFF01D475C93007E34FC /* message.json */; };
+		5DF8FFF61D475C98007E34FC /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFF51D475C98007E34FC /* Expression.bundle */; };
+		5DF8FFF81D475C9E007E34FC /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFF71D475C9E007E34FC /* Expression.plist */; };
+		5DF8FFFA1D475CAD007E34FC /* Kenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFF91D475CAD007E34FC /* Kenny.jpg */; };
+		5DF8FFFD1D475F29007E34FC /* TSUIimage+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFFC1D475F29007E34FC /* TSUIimage+WeChat.swift */; };
+		813E5DF424B60C0F059E631C /* Pods_WechatSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9E1D73738C23F0C344865B /* Pods_WechatSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184AF8E4CF9C32C32A975A0D /* Pods-WechatSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WechatSwift/Pods-WechatSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		4D9E1D73738C23F0C344865B /* Pods_WechatSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WechatSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF8FFAA1D474DB8007E34FC /* WechatSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WechatSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF8FFAD1D474DB8007E34FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF8FFAF1D474DB8007E34FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5DF8FFB11D474DB8007E34FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5DF8FFB41D474DB8007E34FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5DF8FFB61D474DB8007E34FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF8FFB61D474DB8007E34FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		5DF8FFB91D474DB8007E34FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DF8FFBB1D474DB8007E34FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF8FFC61D47523B007E34FC /* TSAppMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAppMacro.swift; sourceTree = "<group>"; };
+		5DF8FFC81D47532F007E34FC /* WechatSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WechatSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		5DF8FFCA1D47562F007E34FC /* TSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSConfig.swift; sourceTree = "<group>"; };
+		5DF8FFCF1D4758BD007E34FC /* TSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSModel.swift; sourceTree = "<group>"; };
+		5DF8FFD11D475C83007E34FC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5DF8FFD31D475C8A007E34FC /* country_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country_code.txt; sourceTree = "<group>"; };
+		5DF8FFD51D475C8E007E34FC /* shake_sound_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_sound_male.wav; sourceTree = "<group>"; };
+		5DF8FFD61D475C8E007E34FC /* sendmsg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendmsg.caf; sourceTree = "<group>"; };
+		5DF8FFD71D475C8E007E34FC /* pstncall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pstncall.mp3; sourceTree = "<group>"; };
+		5DF8FFD81D475C8E007E34FC /* msg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msg.caf; sourceTree = "<group>"; };
+		5DF8FFD91D475C8E007E34FC /* msgtoolong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = msgtoolong.wav; sourceTree = "<group>"; };
+		5DF8FFDA1D475C8E007E34FC /* close.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = close.wav; sourceTree = "<group>"; };
+		5DF8FFDB1D475C8E007E34FC /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		5DF8FFDC1D475C8E007E34FC /* call.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = call.caf; sourceTree = "<group>"; };
+		5DF8FFDD1D475C8E007E34FC /* camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = camera.wav; sourceTree = "<group>"; };
+		5DF8FFDE1D475C8E007E34FC /* hello.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello.amr; sourceTree = "<group>"; };
+		5DF8FFDF1D475C8E007E34FC /* shake_match.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_match.wav; sourceTree = "<group>"; };
+		5DF8FFE01D475C8E007E34FC /* shake_nomatch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_nomatch.wav; sourceTree = "<group>"; };
+		5DF8FFEE1D475C93007E34FC /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
+		5DF8FFEF1D475C93007E34FC /* contact.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
+		5DF8FFF01D475C93007E34FC /* message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = message.json; sourceTree = "<group>"; };
+		5DF8FFF51D475C98007E34FC /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
+		5DF8FFF71D475C9E007E34FC /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
+		5DF8FFF91D475CAD007E34FC /* Kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpg; sourceTree = "<group>"; };
+		5DF8FFFC1D475F29007E34FC /* TSUIimage+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIimage+WeChat.swift"; sourceTree = "<group>"; };
+		E111D0EA626F9ADFDFCC4244 /* Pods-WechatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-WechatSwift/Pods-WechatSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +84,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813E5DF424B60C0F059E631C /* Pods_WechatSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F065FF3E5D45504421BCBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E1D73738C23F0C344865B /* Pods_WechatSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DF8FFA11D474DB8007E34FC = {
 			isa = PBXGroup;
 			children = (
+				5DF8FFC81D47532F007E34FC /* WechatSwift-Bridging-Header.h */,
 				5DF8FFAC1D474DB8007E34FC /* WechatSwift */,
 				5DF8FFAB1D474DB8007E34FC /* Products */,
+				FCAE780D6BFB0F041FC4A8ED /* Pods */,
+				2F065FF3E5D45504421BCBFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +121,130 @@
 		5DF8FFAC1D474DB8007E34FC /* WechatSwift */ = {
 			isa = PBXGroup;
 			children = (
+				5DF8FFFB1D475F0E007E34FC /* General */,
+				5DF8FFC21D475205007E34FC /* Classes */,
+				5DF8FFC31D475205007E34FC /* Helpers */,
+				5DF8FFC41D475205007E34FC /* Macro */,
+				5DF8FFC51D475205007E34FC /* Resources */,
 				5DF8FFAD1D474DB8007E34FC /* AppDelegate.swift */,
 				5DF8FFAF1D474DB8007E34FC /* FirstViewController.swift */,
 				5DF8FFB11D474DB8007E34FC /* SecondViewController.swift */,
 				5DF8FFB31D474DB8007E34FC /* Main.storyboard */,
-				5DF8FFB61D474DB8007E34FC /* Assets.xcassets */,
 				5DF8FFB81D474DB8007E34FC /* LaunchScreen.storyboard */,
 				5DF8FFBB1D474DB8007E34FC /* Info.plist */,
 			);
 			path = WechatSwift;
+			sourceTree = "<group>";
+		};
+		5DF8FFC21D475205007E34FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFCC1D47583A007E34FC /* CoreModule */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5DF8FFC31D475205007E34FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5DF8FFC41D475205007E34FC /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFC61D47523B007E34FC /* TSAppMacro.swift */,
+				5DF8FFCA1D47562F007E34FC /* TSConfig.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		5DF8FFC51D475205007E34FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFF91D475CAD007E34FC /* Kenny.jpg */,
+				5DF8FFF71D475C9E007E34FC /* Expression.plist */,
+				5DF8FFF51D475C98007E34FC /* Expression.bundle */,
+				5DF8FFF11D475C93007E34FC /* JSON */,
+				5DF8FFE11D475C8E007E34FC /* Audio */,
+				5DF8FFD31D475C8A007E34FC /* country_code.txt */,
+				5DF8FFD11D475C83007E34FC /* Media.xcassets */,
+				5DF8FFB61D474DB8007E34FC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DF8FFCC1D47583A007E34FC /* CoreModule */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFCD1D47583A007E34FC /* Http */,
+				5DF8FFCE1D47583A007E34FC /* Models */,
+			);
+			path = CoreModule;
+			sourceTree = "<group>";
+		};
+		5DF8FFCD1D47583A007E34FC /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		5DF8FFCE1D47583A007E34FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFCF1D4758BD007E34FC /* TSModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DF8FFE11D475C8E007E34FC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFD51D475C8E007E34FC /* shake_sound_male.wav */,
+				5DF8FFD61D475C8E007E34FC /* sendmsg.caf */,
+				5DF8FFD71D475C8E007E34FC /* pstncall.mp3 */,
+				5DF8FFD81D475C8E007E34FC /* msg.caf */,
+				5DF8FFD91D475C8E007E34FC /* msgtoolong.wav */,
+				5DF8FFDA1D475C8E007E34FC /* close.wav */,
+				5DF8FFDB1D475C8E007E34FC /* beep.wav */,
+				5DF8FFDC1D475C8E007E34FC /* call.caf */,
+				5DF8FFDD1D475C8E007E34FC /* camera.wav */,
+				5DF8FFDE1D475C8E007E34FC /* hello.amr */,
+				5DF8FFDF1D475C8E007E34FC /* shake_match.wav */,
+				5DF8FFE01D475C8E007E34FC /* shake_nomatch.wav */,
+			);
+			name = Audio;
+			path = "../../../../../Downloads/TSWeChat-master/TSWeChat/Resources/Audio";
+			sourceTree = "<group>";
+		};
+		5DF8FFF11D475C93007E34FC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFEE1D475C93007E34FC /* chat.json */,
+				5DF8FFEF1D475C93007E34FC /* contact.json */,
+				5DF8FFF01D475C93007E34FC /* message.json */,
+			);
+			name = JSON;
+			path = "../../../../../Downloads/TSWeChat-master/TSWeChat/Resources/JSON";
+			sourceTree = "<group>";
+		};
+		5DF8FFFB1D475F0E007E34FC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8FFFC1D475F29007E34FC /* TSUIimage+WeChat.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FCAE780D6BFB0F041FC4A8ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				184AF8E4CF9C32C32A975A0D /* Pods-WechatSwift.debug.xcconfig */,
+				E111D0EA626F9ADFDFCC4244 /* Pods-WechatSwift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DF8FFBE1D474DB8007E34FC /* Build configuration list for PBXNativeTarget "WechatSwift" */;
 			buildPhases = (
+				E011BA80287B77ED8681CEC8 /* [CP] Check Pods Manifest.lock */,
 				5DF8FFA61D474DB8007E34FC /* Sources */,
 				5DF8FFA71D474DB8007E34FC /* Frameworks */,
 				5DF8FFA81D474DB8007E34FC /* Resources */,
+				BB995DD0CFDC75D84CF5CD7C /* [CP] Embed Pods Frameworks */,
+				1A922D1F83A28542C708677F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,20 +308,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF8FFE81D475C8E007E34FC /* beep.wav in Resources */,
 				5DF8FFBA1D474DB8007E34FC /* LaunchScreen.storyboard in Resources */,
+				5DF8FFD41D475C8A007E34FC /* country_code.txt in Resources */,
+				5DF8FFEC1D475C8E007E34FC /* shake_match.wav in Resources */,
+				5DF8FFE71D475C8E007E34FC /* close.wav in Resources */,
+				5DF8FFEB1D475C8E007E34FC /* hello.amr in Resources */,
+				5DF8FFE91D475C8E007E34FC /* call.caf in Resources */,
+				5DF8FFFA1D475CAD007E34FC /* Kenny.jpg in Resources */,
+				5DF8FFF61D475C98007E34FC /* Expression.bundle in Resources */,
+				5DF8FFEA1D475C8E007E34FC /* camera.wav in Resources */,
 				5DF8FFB71D474DB8007E34FC /* Assets.xcassets in Resources */,
+				5DF8FFF41D475C93007E34FC /* message.json in Resources */,
+				5DF8FFF21D475C93007E34FC /* chat.json in Resources */,
+				5DF8FFE41D475C8E007E34FC /* pstncall.mp3 in Resources */,
+				5DF8FFF31D475C93007E34FC /* contact.json in Resources */,
+				5DF8FFED1D475C8E007E34FC /* shake_nomatch.wav in Resources */,
+				5DF8FFD21D475C83007E34FC /* Media.xcassets in Resources */,
+				5DF8FFF81D475C9E007E34FC /* Expression.plist in Resources */,
+				5DF8FFE61D475C8E007E34FC /* msgtoolong.wav in Resources */,
+				5DF8FFE31D475C8E007E34FC /* sendmsg.caf in Resources */,
+				5DF8FFE51D475C8E007E34FC /* msg.caf in Resources */,
+				5DF8FFE21D475C8E007E34FC /* shake_sound_male.wav in Resources */,
 				5DF8FFB51D474DB8007E34FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A922D1F83A28542C708677F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WechatSwift/Pods-WechatSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB995DD0CFDC75D84CF5CD7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WechatSwift/Pods-WechatSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E011BA80287B77ED8681CEC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5DF8FFA61D474DB8007E34FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF8FFD01D4758BD007E34FC /* TSModel.swift in Sources */,
 				5DF8FFB21D474DB8007E34FC /* SecondViewController.swift in Sources */,
+				5DF8FFC71D47523B007E34FC /* TSAppMacro.swift in Sources */,
+				5DF8FFCB1D47562F007E34FC /* TSConfig.swift in Sources */,
+				5DF8FFFD1D475F29007E34FC /* TSUIimage+WeChat.swift in Sources */,
 				5DF8FFAE1D474DB8007E34FC /* AppDelegate.swift in Sources */,
 				5DF8FFB01D474DB8007E34FC /* FirstViewController.swift in Sources */,
 			);
@@ -251,23 +506,27 @@
 		};
 		5DF8FFBF1D474DB8007E34FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184AF8E4CF9C32C32A975A0D /* Pods-WechatSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WechatSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.globaltravel.WechatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/GeforceLee/Desktop/Demo/WechatSwift/WechatSwift-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		5DF8FFC01D474DB8007E34FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E111D0EA626F9ADFDFCC4244 /* Pods-WechatSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WechatSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.globaltravel.WechatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/GeforceLee/Desktop/Demo/WechatSwift/WechatSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -290,6 +549,7 @@
 				5DF8FFC01D474DB8007E34FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
