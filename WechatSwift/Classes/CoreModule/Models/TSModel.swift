@@ -37,28 +37,46 @@ enum MessageContentType: String {
     case Time = "110"
 }
 
-
+/**
+ 服务器返回的是字符串,消息来源类型
+ 
+ - System:          系统
+ - Personal:        个人
+ - Group:           群组
+ - PublicServer:    服务号
+ - PublicSubscribe: 订阅号
+ */
 enum MessageFromType: String {
     case System = "0"
     case Personal = "1"
     case Group = "2"
     case PublicServer = "3"
     case PublicSubscribe = "4"
-    
     var placeHolderImage: UIImage {
         switch self {
         case .Personal:
             return UIImage(asset: Asset.Icon_avatar)
         default:
             return UIImage(asset: Asset.Icon_avatar)
-        
+            
         }
     }
+
 }
 
 
-
-
+/**
+ 发送消息的状态
+ 
+ - Success: 消息发送成功
+ - Failed:  消息发送失败
+ - Sending: 消息正在发送
+ */
+enum MessageSendSuccessType: Int {
+    case Success = 0
+    case Failed
+    case Sending
+}
 
 
 

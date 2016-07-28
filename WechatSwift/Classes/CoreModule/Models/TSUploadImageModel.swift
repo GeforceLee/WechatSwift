@@ -1,0 +1,78 @@
+//
+//  UploadImageModel.swift
+//  WechatSwift
+//
+//  Created by Yunlong Li on 16/7/27.
+//  Copyright © 2016年 GlobalTravel. All rights reserved.
+//
+
+import Foundation
+import ObjectMapper
+
+class UploadImageModel: TSModelProtocol {
+    var originalURL: String?
+    var originalHeight: CGFloat?
+    var originalWidth: CGFloat?
+    var thumbURL: String?
+    var thumbHeight: CGFloat?
+    var thumbWidth: CGFloat?
+    var imageId: Int?
+    
+    
+    
+    required init?(_ map: Map) {
+        
+    }
+    
+    
+    func mapping(map: Map) {
+        originalURL <- map["original_URL"]
+        originalHeight <- map["originalHeight"]
+        originalWidth <- map["originalWidth"]
+        imageId <- map["image_Id"]
+        thumbURL <- map["thumb_URL"]
+        thumbHeight <- map["thumb_height"]
+        thumbWidth <- map["thumb_width"]
+    }
+}
+
+
+
+
+
+class UploadAudioModel: TSModelProtocol {
+    var audioId: String?
+    var duration: Int?
+    var audioURL: String?
+    var fileSize: Int?
+    var keyHash: String?
+    var recordTime: String?
+    
+    
+    required init?(_ map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        audioId <- map["audio_id"]
+        audioURL <- map["audio_url"]
+        duration <- map["duration"]
+        keyHash <- map["key_hash"]
+        fileSize <- map["file_size"]
+        recordTime <- map["recordTime"]
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

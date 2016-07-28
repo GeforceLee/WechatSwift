@@ -9,5 +9,6 @@
 #ifndef WechatSwift_Bridging_Header_h
 #define WechatSwift_Bridging_Header_h
 @import UIKit;
+#import <CoreLocation/CoreLocation.h>
 
 #endif /* WechatSwift_Bridging_Header_h */

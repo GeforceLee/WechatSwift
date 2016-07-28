@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DF800011D47633C007E34FC /* TSChatSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800001D47633C007E34FC /* TSChatSubModel.swift */; };
+		5DF800031D477986007E34FC /* TSModelTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800021D477986007E34FC /* TSModelTransformer.swift */; };
+		5DF8000B1D488D2F007E34FC /* ImageFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */; };
+		5DF8000D1D488EB8007E34FC /* String+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8000C1D488EB8007E34FC /* String+Crypto.swift */; };
+		5DF8000F1D4892E8007E34FC /* TSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8000E1D4892E8007E34FC /* TSLogger.swift */; };
+		5DF800111D489C03007E34FC /* TSMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800101D489C03007E34FC /* TSMessageModel.swift */; };
+		5DF800131D48A128007E34FC /* TSContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800121D48A128007E34FC /* TSContactModel.swift */; };
+		5DF800151D48AB54007E34FC /* TSUploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800141D48AB54007E34FC /* TSUploadImageModel.swift */; };
+		5DF800171D48B333007E34FC /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800161D48B333007E34FC /* NSDate+Extension.swift */; };
+		5DF800191D48BC37007E34FC /* TSUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800181D48BC37007E34FC /* TSUserManager.swift */; };
+		5DF8001B1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8001A1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift */; };
+		5DF8001D1D49E8DF007E34FC /* TSApplicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8001C1D49E8DF007E34FC /* TSApplicationManager.swift */; };
+		5DF8001F1D49E9A8007E34FC /* TSProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8001E1D49E9A8007E34FC /* TSProgressHUD.swift */; };
+		5DF800211D49F763007E34FC /* TSLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800201D49F763007E34FC /* TSLocationManager.swift */; };
+		5DF800231D49FB32007E34FC /* TSGlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800221D49FB32007E34FC /* TSGlobalHelper.swift */; };
+		5DF800251D4A0493007E34FC /* TSUIColor+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800241D4A0493007E34FC /* TSUIColor+WeChat.swift */; };
+		5DF800271D4A080E007E34FC /* TSUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800261D4A080E007E34FC /* TSUserDefaults.swift */; };
 		5DF8FFAE1D474DB8007E34FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFAD1D474DB8007E34FC /* AppDelegate.swift */; };
 		5DF8FFB01D474DB8007E34FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFAF1D474DB8007E34FC /* FirstViewController.swift */; };
 		5DF8FFB21D474DB8007E34FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFB11D474DB8007E34FC /* SecondViewController.swift */; };
@@ -37,12 +54,30 @@
 		5DF8FFF81D475C9E007E34FC /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFF71D475C9E007E34FC /* Expression.plist */; };
 		5DF8FFFA1D475CAD007E34FC /* Kenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DF8FFF91D475CAD007E34FC /* Kenny.jpg */; };
 		5DF8FFFD1D475F29007E34FC /* TSUIimage+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFFC1D475F29007E34FC /* TSUIimage+WeChat.swift */; };
+		5DF8FFFF1D4762D8007E34FC /* TSChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFFE1D4762D8007E34FC /* TSChatModel.swift */; };
 		813E5DF424B60C0F059E631C /* Pods_WechatSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9E1D73738C23F0C344865B /* Pods_WechatSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		184AF8E4CF9C32C32A975A0D /* Pods-WechatSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WechatSwift/Pods-WechatSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		4D9E1D73738C23F0C344865B /* Pods_WechatSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WechatSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF800001D47633C007E34FC /* TSChatSubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatSubModel.swift; sourceTree = "<group>"; };
+		5DF800021D477986007E34FC /* TSModelTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSModelTransformer.swift; sourceTree = "<group>"; };
+		5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilesManager.swift; sourceTree = "<group>"; };
+		5DF8000C1D488EB8007E34FC /* String+Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Crypto.swift"; sourceTree = "<group>"; };
+		5DF8000E1D4892E8007E34FC /* TSLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLogger.swift; sourceTree = "<group>"; };
+		5DF800101D489C03007E34FC /* TSMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMessageModel.swift; sourceTree = "<group>"; };
+		5DF800121D48A128007E34FC /* TSContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContactModel.swift; sourceTree = "<group>"; };
+		5DF800141D48AB54007E34FC /* TSUploadImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUploadImageModel.swift; sourceTree = "<group>"; };
+		5DF800161D48B333007E34FC /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		5DF800181D48BC37007E34FC /* TSUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUserManager.swift; sourceTree = "<group>"; };
+		5DF8001A1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSYYTextLinePositionModifier.swift; sourceTree = "<group>"; };
+		5DF8001C1D49E8DF007E34FC /* TSApplicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSApplicationManager.swift; sourceTree = "<group>"; };
+		5DF8001E1D49E9A8007E34FC /* TSProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSProgressHUD.swift; sourceTree = "<group>"; };
+		5DF800201D49F763007E34FC /* TSLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLocationManager.swift; sourceTree = "<group>"; };
+		5DF800221D49FB32007E34FC /* TSGlobalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSGlobalHelper.swift; sourceTree = "<group>"; };
+		5DF800241D4A0493007E34FC /* TSUIColor+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIColor+WeChat.swift"; sourceTree = "<group>"; };
+		5DF800261D4A080E007E34FC /* TSUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUserDefaults.swift; sourceTree = "<group>"; };
 		5DF8FFAA1D474DB8007E34FC /* WechatSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WechatSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF8FFAD1D474DB8007E34FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF8FFAF1D474DB8007E34FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +111,7 @@
 		5DF8FFF71D475C9E007E34FC /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
 		5DF8FFF91D475CAD007E34FC /* Kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpg; sourceTree = "<group>"; };
 		5DF8FFFC1D475F29007E34FC /* TSUIimage+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIimage+WeChat.swift"; sourceTree = "<group>"; };
+		5DF8FFFE1D4762D8007E34FC /* TSChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatModel.swift; sourceTree = "<group>"; };
 		E111D0EA626F9ADFDFCC4244 /* Pods-WechatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-WechatSwift/Pods-WechatSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +133,39 @@
 				4D9E1D73738C23F0C344865B /* Pods_WechatSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DF800061D488D0F007E34FC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5DF800071D488D0F007E34FC /* Cells */,
+				5DF800081D488D0F007E34FC /* ChatHelper */,
+				5DF800091D488D0F007E34FC /* Views */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		5DF800071D488D0F007E34FC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5DF800081D488D0F007E34FC /* ChatHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */,
+				5DF8001A1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift */,
+			);
+			path = ChatHelper;
+			sourceTree = "<group>";
+		};
+		5DF800091D488D0F007E34FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5DF8FFA11D474DB8007E34FC = {
@@ -139,6 +208,7 @@
 		5DF8FFC21D475205007E34FC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5DF800061D488D0F007E34FC /* Chat */,
 				5DF8FFCC1D47583A007E34FC /* CoreModule */,
 			);
 			path = Classes;
@@ -147,6 +217,8 @@
 		5DF8FFC31D475205007E34FC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5DF800161D48B333007E34FC /* NSDate+Extension.swift */,
+				5DF8000C1D488EB8007E34FC /* String+Crypto.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -180,6 +252,9 @@
 			children = (
 				5DF8FFCD1D47583A007E34FC /* Http */,
 				5DF8FFCE1D47583A007E34FC /* Models */,
+				5DF800181D48BC37007E34FC /* TSUserManager.swift */,
+				5DF8001C1D49E8DF007E34FC /* TSApplicationManager.swift */,
+				5DF800201D49F763007E34FC /* TSLocationManager.swift */,
 			);
 			path = CoreModule;
 			sourceTree = "<group>";
@@ -195,6 +270,12 @@
 			isa = PBXGroup;
 			children = (
 				5DF8FFCF1D4758BD007E34FC /* TSModel.swift */,
+				5DF8FFFE1D4762D8007E34FC /* TSChatModel.swift */,
+				5DF800001D47633C007E34FC /* TSChatSubModel.swift */,
+				5DF800021D477986007E34FC /* TSModelTransformer.swift */,
+				5DF800101D489C03007E34FC /* TSMessageModel.swift */,
+				5DF800121D48A128007E34FC /* TSContactModel.swift */,
+				5DF800141D48AB54007E34FC /* TSUploadImageModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,6 +315,11 @@
 			isa = PBXGroup;
 			children = (
 				5DF8FFFC1D475F29007E34FC /* TSUIimage+WeChat.swift */,
+				5DF8000E1D4892E8007E34FC /* TSLogger.swift */,
+				5DF8001E1D49E9A8007E34FC /* TSProgressHUD.swift */,
+				5DF800221D49FB32007E34FC /* TSGlobalHelper.swift */,
+				5DF800241D4A0493007E34FC /* TSUIColor+WeChat.swift */,
+				5DF800261D4A080E007E34FC /* TSUserDefaults.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -389,13 +475,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF800271D4A080E007E34FC /* TSUserDefaults.swift in Sources */,
+				5DF8001F1D49E9A8007E34FC /* TSProgressHUD.swift in Sources */,
 				5DF8FFD01D4758BD007E34FC /* TSModel.swift in Sources */,
+				5DF800011D47633C007E34FC /* TSChatSubModel.swift in Sources */,
 				5DF8FFB21D474DB8007E34FC /* SecondViewController.swift in Sources */,
+				5DF800251D4A0493007E34FC /* TSUIColor+WeChat.swift in Sources */,
+				5DF800131D48A128007E34FC /* TSContactModel.swift in Sources */,
+				5DF800231D49FB32007E34FC /* TSGlobalHelper.swift in Sources */,
 				5DF8FFC71D47523B007E34FC /* TSAppMacro.swift in Sources */,
+				5DF800191D48BC37007E34FC /* TSUserManager.swift in Sources */,
+				5DF800031D477986007E34FC /* TSModelTransformer.swift in Sources */,
+				5DF8FFFF1D4762D8007E34FC /* TSChatModel.swift in Sources */,
 				5DF8FFCB1D47562F007E34FC /* TSConfig.swift in Sources */,
+				5DF800151D48AB54007E34FC /* TSUploadImageModel.swift in Sources */,
 				5DF8FFFD1D475F29007E34FC /* TSUIimage+WeChat.swift in Sources */,
 				5DF8FFAE1D474DB8007E34FC /* AppDelegate.swift in Sources */,
+				5DF8000F1D4892E8007E34FC /* TSLogger.swift in Sources */,
+				5DF800171D48B333007E34FC /* NSDate+Extension.swift in Sources */,
 				5DF8FFB01D474DB8007E34FC /* FirstViewController.swift in Sources */,
+				5DF8001D1D49E8DF007E34FC /* TSApplicationManager.swift in Sources */,
+				5DF800211D49F763007E34FC /* TSLocationManager.swift in Sources */,
+				5DF8001B1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift in Sources */,
+				5DF800111D489C03007E34FC /* TSMessageModel.swift in Sources */,
+				5DF8000B1D488D2F007E34FC /* ImageFilesManager.swift in Sources */,
+				5DF8000D1D488EB8007E34FC /* String+Crypto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WechatSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.globaltravel.WechatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WechatSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.globaltravel.WechatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
