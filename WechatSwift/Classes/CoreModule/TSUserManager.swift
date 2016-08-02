@@ -31,10 +31,95 @@ class UserManager: NSObject {
     let TSKeyChain = Keychain(service: "com.wechat.Hilen")
     var accessToken: String? {
         get {return TSUserDefaults.getString(kAccessToken, defaultValue: "token")}
+        set(newValue) {TSUserDefaults.setString(kAccessToken, value: newValue)}
+    }
+    
+        
+    var nickname: String? {
+        get {return TSUserDefaults.getString(kNickname,defaultValue: "")}
+        set(newValue){TSUserDefaults.setString(kNickname, value: newValue)}
+    }
+    
+    var avatar: String?
+    
+    var userId: String?{
+        get{return TSUserDefaults.getString(kUserId, defaultValue: TSConfig.testUserID)}
+        set(newValue){TSUserDefaults.setString(kUserId, value: newValue)}
     }
     
     
-    var userId: String?
-        
+    var isLogin: Bool {
+        get {return TSUserDefaults.getBool(kIsLogin, defaultValue:  false)}
+        set(newValue){ TSUserDefaults.setBool(kIsLogin, value: newValue)}
+    }
+    
+    var loginName: String? {
+        get {return TSKeyChain[kLoginName] ?? ""}
+        set(newValue){TSKeyChain[kLoginName] = newValue}
+    }
+    
+    var password: String? {
+        get {return TSKeyChain[kPassword] ?? ""}
+        set(newValue){ TSKeyChain[kPassword] = newValue}
+    }
+    
+    private override init() {
+        super.init()
+    }
+    
+    
+    func readAllData() {
+        self.nickname = TSUserDefaults.getString(kNickname, defaultValue: "")
+         self.avatar = TSUserDefaults.getString(kAvatar, defaultValue: "")
+        self.userId = TSUserDefaults.getString(kUserId, defaultValue: "")
+        self.isLogin = TSUserDefaults.getBool(kIsLogin,defaultValue: false)
+        self.loginName = TSKeyChain[kIsLogin] ?? ""
+        self.password = TSKeyChain[kPassword] ?? ""
+    
+    }
+    
+    func userLoginSuccess(result: JSON) -> Void{
+        self.loginName = result["username"].stringValue
+        self.password = result["password"].stringValue
+        self.nickname = result["nickname"].stringValue
+        self.userId = result["user_id"].stringValue
+        self.isLogin = true
+    }
+    
+    func userLogout() {
+        self.accessToken = ""
+        self.loginName = ""
+        self.password = ""
+        self.nickname = ""
+        self.userId = ""
+        self.isLogin = false
+    }
+    
+    func resetAccessToken(token: String) {
+        TSUserDefaults.setString(kAccessToken, value: token)
+        if token.characters.count > 0 {
+            print("token success")
+        } else {
+            self.userLogout()
+        }
+    }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

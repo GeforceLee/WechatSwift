@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA9F4B71D4EECCF00B6330B /* TSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4B61D4EECCF00B6330B /* TSImagePicker.swift */; };
+		5DA9F4B91D4EFE4000B6330B /* SwiftTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4B81D4EFE4000B6330B /* SwiftTimer.swift */; };
+		5DA9F4BB1D4F352900B6330B /* TSNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4BA1D4F352900B6330B /* TSNavigationBar.swift */; };
+		5DA9F4BD1D4F376000B6330B /* TSFullyHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4BC1D4F376000B6330B /* TSFullyHorizontalFlowLayout.swift */; };
+		5DA9F4BF1D4F440100B6330B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4BE1D4F440100B6330B /* UILabel+Extension.swift */; };
+		5DA9F4C11D4F4A3100B6330B /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4C01D4F4A3100B6330B /* AboutApp.swift */; };
+		5DA9F4C31D4F5CB600B6330B /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4C21D4F5CB600B6330B /* CGRect+Extension.swift */; };
+		5DA9F4C51D4F5CDD00B6330B /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4C41D4F5CDD00B6330B /* Device.swift */; };
+		5DA9F4C71D4F5E9A00B6330B /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4C61D4F5E9A00B6330B /* NSData+Extension.swift */; };
+		5DA9F4C91D4F643900B6330B /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4C81D4F643900B6330B /* NSDictionary+Extension.swift */; };
+		5DA9F4CB1D504C6400B6330B /* NSNotificationCenter+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4CA1D504C6400B6330B /* NSNotificationCenter+Block.swift */; };
+		5DA9F4CD1D506F0600B6330B /* NSObject+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4CC1D506F0600B6330B /* NSObject+String.swift */; };
+		5DA9F4CF1D50709800B6330B /* PHAsset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4CE1D50709800B6330B /* PHAsset+Extension.swift */; };
+		5DA9F4D11D5071F900B6330B /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4D01D5071F900B6330B /* String+Extenstion.swift */; };
+		5DA9F4D31D50742C00B6330B /* UIBarButtonItem+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4D21D50742C00B6330B /* UIBarButtonItem+Block.swift */; };
+		5DA9F4D51D50955A00B6330B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4D41D50955A00B6330B /* UIImage+Extension.swift */; };
 		5DF800011D47633C007E34FC /* TSChatSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800001D47633C007E34FC /* TSChatSubModel.swift */; };
 		5DF800031D477986007E34FC /* TSModelTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800021D477986007E34FC /* TSModelTransformer.swift */; };
 		5DF8000B1D488D2F007E34FC /* ImageFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */; };
@@ -24,6 +40,8 @@
 		5DF800231D49FB32007E34FC /* TSGlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800221D49FB32007E34FC /* TSGlobalHelper.swift */; };
 		5DF800251D4A0493007E34FC /* TSUIColor+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800241D4A0493007E34FC /* TSUIColor+WeChat.swift */; };
 		5DF800271D4A080E007E34FC /* TSUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800261D4A080E007E34FC /* TSUserDefaults.swift */; };
+		5DF800291D4B653D007E34FC /* TSUIImageView+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800281D4B653D007E34FC /* TSUIImageView+WeChat.swift */; };
+		5DF8002B1D4B6C4F007E34FC /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8002A1D4B6C4F007E34FC /* UIView+Frame.swift */; };
 		5DF8FFAE1D474DB8007E34FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFAD1D474DB8007E34FC /* AppDelegate.swift */; };
 		5DF8FFB01D474DB8007E34FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFAF1D474DB8007E34FC /* FirstViewController.swift */; };
 		5DF8FFB21D474DB8007E34FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8FFB11D474DB8007E34FC /* SecondViewController.swift */; };
@@ -61,6 +79,22 @@
 /* Begin PBXFileReference section */
 		184AF8E4CF9C32C32A975A0D /* Pods-WechatSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WechatSwift/Pods-WechatSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		4D9E1D73738C23F0C344865B /* Pods_WechatSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WechatSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA9F4B61D4EECCF00B6330B /* TSImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSImagePicker.swift; sourceTree = "<group>"; };
+		5DA9F4B81D4EFE4000B6330B /* SwiftTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTimer.swift; sourceTree = "<group>"; };
+		5DA9F4BA1D4F352900B6330B /* TSNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSNavigationBar.swift; sourceTree = "<group>"; };
+		5DA9F4BC1D4F376000B6330B /* TSFullyHorizontalFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSFullyHorizontalFlowLayout.swift; sourceTree = "<group>"; };
+		5DA9F4BE1D4F440100B6330B /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		5DA9F4C01D4F4A3100B6330B /* AboutApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
+		5DA9F4C21D4F5CB600B6330B /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		5DA9F4C41D4F5CDD00B6330B /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		5DA9F4C61D4F5E9A00B6330B /* NSData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Extension.swift"; sourceTree = "<group>"; };
+		5DA9F4C81D4F643900B6330B /* NSDictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extension.swift"; sourceTree = "<group>"; };
+		5DA9F4CA1D504C6400B6330B /* NSNotificationCenter+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotificationCenter+Block.swift"; sourceTree = "<group>"; };
+		5DA9F4CC1D506F0600B6330B /* NSObject+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+String.swift"; sourceTree = "<group>"; };
+		5DA9F4CE1D50709800B6330B /* PHAsset+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHAsset+Extension.swift"; sourceTree = "<group>"; };
+		5DA9F4D01D5071F900B6330B /* String+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
+		5DA9F4D21D50742C00B6330B /* UIBarButtonItem+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Block.swift"; sourceTree = "<group>"; };
+		5DA9F4D41D50955A00B6330B /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		5DF800001D47633C007E34FC /* TSChatSubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatSubModel.swift; sourceTree = "<group>"; };
 		5DF800021D477986007E34FC /* TSModelTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSModelTransformer.swift; sourceTree = "<group>"; };
 		5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilesManager.swift; sourceTree = "<group>"; };
@@ -78,6 +112,8 @@
 		5DF800221D49FB32007E34FC /* TSGlobalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSGlobalHelper.swift; sourceTree = "<group>"; };
 		5DF800241D4A0493007E34FC /* TSUIColor+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIColor+WeChat.swift"; sourceTree = "<group>"; };
 		5DF800261D4A080E007E34FC /* TSUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUserDefaults.swift; sourceTree = "<group>"; };
+		5DF800281D4B653D007E34FC /* TSUIImageView+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIImageView+WeChat.swift"; sourceTree = "<group>"; };
+		5DF8002A1D4B6C4F007E34FC /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		5DF8FFAA1D474DB8007E34FC /* WechatSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WechatSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF8FFAD1D474DB8007E34FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF8FFAF1D474DB8007E34FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -219,6 +255,19 @@
 			children = (
 				5DF800161D48B333007E34FC /* NSDate+Extension.swift */,
 				5DF8000C1D488EB8007E34FC /* String+Crypto.swift */,
+				5DF8002A1D4B6C4F007E34FC /* UIView+Frame.swift */,
+				5DA9F4BE1D4F440100B6330B /* UILabel+Extension.swift */,
+				5DA9F4C01D4F4A3100B6330B /* AboutApp.swift */,
+				5DA9F4C21D4F5CB600B6330B /* CGRect+Extension.swift */,
+				5DA9F4C41D4F5CDD00B6330B /* Device.swift */,
+				5DA9F4C61D4F5E9A00B6330B /* NSData+Extension.swift */,
+				5DA9F4C81D4F643900B6330B /* NSDictionary+Extension.swift */,
+				5DA9F4CA1D504C6400B6330B /* NSNotificationCenter+Block.swift */,
+				5DA9F4CC1D506F0600B6330B /* NSObject+String.swift */,
+				5DA9F4CE1D50709800B6330B /* PHAsset+Extension.swift */,
+				5DA9F4D01D5071F900B6330B /* String+Extenstion.swift */,
+				5DA9F4D21D50742C00B6330B /* UIBarButtonItem+Block.swift */,
+				5DA9F4D41D50955A00B6330B /* UIImage+Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -320,6 +369,11 @@
 				5DF800221D49FB32007E34FC /* TSGlobalHelper.swift */,
 				5DF800241D4A0493007E34FC /* TSUIColor+WeChat.swift */,
 				5DF800261D4A080E007E34FC /* TSUserDefaults.swift */,
+				5DF800281D4B653D007E34FC /* TSUIImageView+WeChat.swift */,
+				5DA9F4B61D4EECCF00B6330B /* TSImagePicker.swift */,
+				5DA9F4B81D4EFE4000B6330B /* SwiftTimer.swift */,
+				5DA9F4BA1D4F352900B6330B /* TSNavigationBar.swift */,
+				5DA9F4BC1D4F376000B6330B /* TSFullyHorizontalFlowLayout.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -475,29 +529,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA9F4C11D4F4A3100B6330B /* AboutApp.swift in Sources */,
 				5DF800271D4A080E007E34FC /* TSUserDefaults.swift in Sources */,
+				5DA9F4CF1D50709800B6330B /* PHAsset+Extension.swift in Sources */,
 				5DF8001F1D49E9A8007E34FC /* TSProgressHUD.swift in Sources */,
 				5DF8FFD01D4758BD007E34FC /* TSModel.swift in Sources */,
 				5DF800011D47633C007E34FC /* TSChatSubModel.swift in Sources */,
+				5DA9F4C91D4F643900B6330B /* NSDictionary+Extension.swift in Sources */,
+				5DA9F4CB1D504C6400B6330B /* NSNotificationCenter+Block.swift in Sources */,
 				5DF8FFB21D474DB8007E34FC /* SecondViewController.swift in Sources */,
 				5DF800251D4A0493007E34FC /* TSUIColor+WeChat.swift in Sources */,
 				5DF800131D48A128007E34FC /* TSContactModel.swift in Sources */,
 				5DF800231D49FB32007E34FC /* TSGlobalHelper.swift in Sources */,
+				5DA9F4CD1D506F0600B6330B /* NSObject+String.swift in Sources */,
 				5DF8FFC71D47523B007E34FC /* TSAppMacro.swift in Sources */,
 				5DF800191D48BC37007E34FC /* TSUserManager.swift in Sources */,
+				5DA9F4BB1D4F352900B6330B /* TSNavigationBar.swift in Sources */,
+				5DA9F4D51D50955A00B6330B /* UIImage+Extension.swift in Sources */,
 				5DF800031D477986007E34FC /* TSModelTransformer.swift in Sources */,
+				5DA9F4C31D4F5CB600B6330B /* CGRect+Extension.swift in Sources */,
 				5DF8FFFF1D4762D8007E34FC /* TSChatModel.swift in Sources */,
 				5DF8FFCB1D47562F007E34FC /* TSConfig.swift in Sources */,
+				5DA9F4D31D50742C00B6330B /* UIBarButtonItem+Block.swift in Sources */,
 				5DF800151D48AB54007E34FC /* TSUploadImageModel.swift in Sources */,
 				5DF8FFFD1D475F29007E34FC /* TSUIimage+WeChat.swift in Sources */,
 				5DF8FFAE1D474DB8007E34FC /* AppDelegate.swift in Sources */,
+				5DA9F4C51D4F5CDD00B6330B /* Device.swift in Sources */,
 				5DF8000F1D4892E8007E34FC /* TSLogger.swift in Sources */,
 				5DF800171D48B333007E34FC /* NSDate+Extension.swift in Sources */,
 				5DF8FFB01D474DB8007E34FC /* FirstViewController.swift in Sources */,
+				5DF800291D4B653D007E34FC /* TSUIImageView+WeChat.swift in Sources */,
+				5DA9F4C71D4F5E9A00B6330B /* NSData+Extension.swift in Sources */,
 				5DF8001D1D49E8DF007E34FC /* TSApplicationManager.swift in Sources */,
 				5DF800211D49F763007E34FC /* TSLocationManager.swift in Sources */,
+				5DA9F4B71D4EECCF00B6330B /* TSImagePicker.swift in Sources */,
+				5DA9F4BF1D4F440100B6330B /* UILabel+Extension.swift in Sources */,
+				5DA9F4B91D4EFE4000B6330B /* SwiftTimer.swift in Sources */,
+				5DA9F4BD1D4F376000B6330B /* TSFullyHorizontalFlowLayout.swift in Sources */,
 				5DF8001B1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift in Sources */,
+				5DF8002B1D4B6C4F007E34FC /* UIView+Frame.swift in Sources */,
 				5DF800111D489C03007E34FC /* TSMessageModel.swift in Sources */,
+				5DA9F4D11D5071F900B6330B /* String+Extenstion.swift in Sources */,
 				5DF8000B1D488D2F007E34FC /* ImageFilesManager.swift in Sources */,
 				5DF8000D1D488EB8007E34FC /* String+Crypto.swift in Sources */,
 			);
