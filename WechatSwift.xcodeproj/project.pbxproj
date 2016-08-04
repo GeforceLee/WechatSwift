@@ -32,6 +32,26 @@
 		5DA9F4DD1D50AFD200B6330B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4DC1D50AFD200B6330B /* UIView+Extension.swift */; };
 		5DA9F4DF1D50B1E100B6330B /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9F4DE1D50B1E100B6330B /* UIViewController+Extension.swift */; };
 		5DB8DE271D51C35D0087931A /* HttpManager+UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE261D51C35D0087931A /* HttpManager+UploadImage.swift */; };
+		5DB8DE2A1D51D0FF0087931A /* TSTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE291D51D0FF0087931A /* TSTabbarViewController.swift */; };
+		5DB8DE5C1D51D5630087931A /* TSMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE5B1D51D5630087931A /* TSMeViewController.swift */; };
+		5DB8DE601D51D5A40087931A /* TSMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE5F1D51D5A40087931A /* TSMessageViewController.swift */; };
+		5DB8DE621D51E9830087931A /* TSMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB8DE611D51E9830087931A /* TSMeViewController.xib */; };
+		5DB8DE651D51EE350087931A /* TSMeAvatarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE631D51EE350087931A /* TSMeAvatarTableViewCell.swift */; };
+		5DB8DE661D51EE350087931A /* TSMeAvatarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB8DE641D51EE350087931A /* TSMeAvatarTableViewCell.xib */; };
+		5DB8DE691D51EE4E0087931A /* TSImageTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE671D51EE4E0087931A /* TSImageTextTableViewCell.swift */; };
+		5DB8DE6A1D51EE4E0087931A /* TSImageTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB8DE681D51EE4E0087931A /* TSImageTextTableViewCell.xib */; };
+		5DB8DE6D1D52E7920087931A /* TSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE6B1D52E7920087931A /* TSDiscoverViewController.swift */; };
+		5DB8DE6E1D52E7920087931A /* TSDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB8DE6C1D52E7920087931A /* TSDiscoverViewController.xib */; };
+		5DB8DE711D530AA70087931A /* TSContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE6F1D530AA70087931A /* TSContactsViewController.swift */; };
+		5DB8DE721D530AA70087931A /* TSContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB8DE701D530AA70087931A /* TSContactsViewController.xib */; };
+		5DB8DE751D530AC20087931A /* TSContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE731D530AC20087931A /* TSContactTableViewCell.swift */; };
+		5DB8DE761D530AC20087931A /* TSContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB8DE741D530AC20087931A /* TSContactTableViewCell.xib */; };
+		5DB8DE781D5338030087931A /* AudioDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE771D5338030087931A /* AudioDelegate.swift */; };
+		5DB8DE7A1D533EE00087931A /* AudioFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE791D533EE00087931A /* AudioFilesManager.swift */; };
+		5DB8DE7C1D5344910087931A /* AudioRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE7B1D5344910087931A /* AudioRecordManager.swift */; };
+		5DB8DE7E1D53620F0087931A /* ChatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE7D1D53620F0087931A /* ChatConfig.swift */; };
+		5DB8DE801D5363340087931A /* TSChatBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE7F1D5363340087931A /* TSChatBaseCell.swift */; };
+		5DB8DE821D5363530087931A /* TSChatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8DE811D5363530087931A /* TSChatImageCell.swift */; };
 		5DF800011D47633C007E34FC /* TSChatSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800001D47633C007E34FC /* TSChatSubModel.swift */; };
 		5DF800031D477986007E34FC /* TSModelTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800021D477986007E34FC /* TSModelTransformer.swift */; };
 		5DF8000B1D488D2F007E34FC /* ImageFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */; };
@@ -113,6 +133,26 @@
 		5DA9F4DC1D50AFD200B6330B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		5DA9F4DE1D50B1E100B6330B /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		5DB8DE261D51C35D0087931A /* HttpManager+UploadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpManager+UploadImage.swift"; sourceTree = "<group>"; };
+		5DB8DE291D51D0FF0087931A /* TSTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTabbarViewController.swift; sourceTree = "<group>"; };
+		5DB8DE5B1D51D5630087931A /* TSMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMeViewController.swift; sourceTree = "<group>"; };
+		5DB8DE5F1D51D5A40087931A /* TSMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMessageViewController.swift; sourceTree = "<group>"; };
+		5DB8DE611D51E9830087931A /* TSMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMeViewController.xib; sourceTree = "<group>"; };
+		5DB8DE631D51EE350087931A /* TSMeAvatarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMeAvatarTableViewCell.swift; sourceTree = "<group>"; };
+		5DB8DE641D51EE350087931A /* TSMeAvatarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMeAvatarTableViewCell.xib; sourceTree = "<group>"; };
+		5DB8DE671D51EE4E0087931A /* TSImageTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSImageTextTableViewCell.swift; sourceTree = "<group>"; };
+		5DB8DE681D51EE4E0087931A /* TSImageTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSImageTextTableViewCell.xib; sourceTree = "<group>"; };
+		5DB8DE6B1D52E7920087931A /* TSDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSDiscoverViewController.swift; sourceTree = "<group>"; };
+		5DB8DE6C1D52E7920087931A /* TSDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSDiscoverViewController.xib; sourceTree = "<group>"; };
+		5DB8DE6F1D530AA70087931A /* TSContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContactsViewController.swift; sourceTree = "<group>"; };
+		5DB8DE701D530AA70087931A /* TSContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSContactsViewController.xib; sourceTree = "<group>"; };
+		5DB8DE731D530AC20087931A /* TSContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContactTableViewCell.swift; sourceTree = "<group>"; };
+		5DB8DE741D530AC20087931A /* TSContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSContactTableViewCell.xib; sourceTree = "<group>"; };
+		5DB8DE771D5338030087931A /* AudioDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDelegate.swift; sourceTree = "<group>"; };
+		5DB8DE791D533EE00087931A /* AudioFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioFilesManager.swift; sourceTree = "<group>"; };
+		5DB8DE7B1D5344910087931A /* AudioRecordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecordManager.swift; sourceTree = "<group>"; };
+		5DB8DE7D1D53620F0087931A /* ChatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConfig.swift; sourceTree = "<group>"; };
+		5DB8DE7F1D5363340087931A /* TSChatBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatBaseCell.swift; sourceTree = "<group>"; };
+		5DB8DE811D5363530087931A /* TSChatImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatImageCell.swift; sourceTree = "<group>"; };
 		5DF800001D47633C007E34FC /* TSChatSubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatSubModel.swift; sourceTree = "<group>"; };
 		5DF800021D477986007E34FC /* TSModelTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSModelTransformer.swift; sourceTree = "<group>"; };
 		5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilesManager.swift; sourceTree = "<group>"; };
@@ -189,6 +229,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5DB8DE281D51D0EA0087931A /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				5DB8DE291D51D0FF0087931A /* TSTabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		5DB8DE311D51D21C0087931A /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				5DB8DE6F1D530AA70087931A /* TSContactsViewController.swift */,
+				5DB8DE701D530AA70087931A /* TSContactsViewController.xib */,
+				5DB8DE731D530AC20087931A /* TSContactTableViewCell.swift */,
+				5DB8DE741D530AC20087931A /* TSContactTableViewCell.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		5DB8DE431D51D21C0087931A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				5DB8DE671D51EE4E0087931A /* TSImageTextTableViewCell.swift */,
+				5DB8DE681D51EE4E0087931A /* TSImageTextTableViewCell.xib */,
+				5DB8DE6B1D52E7920087931A /* TSDiscoverViewController.swift */,
+				5DB8DE6C1D52E7920087931A /* TSDiscoverViewController.xib */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		5DB8DE441D51D21C0087931A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5DB8DE5B1D51D5630087931A /* TSMeViewController.swift */,
+				5DB8DE611D51E9830087931A /* TSMeViewController.xib */,
+				5DB8DE631D51EE350087931A /* TSMeAvatarTableViewCell.swift */,
+				5DB8DE641D51EE350087931A /* TSMeAvatarTableViewCell.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5DB8DE451D51D21C0087931A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5DB8DE5F1D51D5A40087931A /* TSMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		5DF800061D488D0F007E34FC /* Chat */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +291,8 @@
 		5DF800071D488D0F007E34FC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				5DB8DE7F1D5363340087931A /* TSChatBaseCell.swift */,
+				5DB8DE811D5363530087931A /* TSChatImageCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -211,6 +302,10 @@
 			children = (
 				5DF8000A1D488D2F007E34FC /* ImageFilesManager.swift */,
 				5DF8001A1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift */,
+				5DB8DE771D5338030087931A /* AudioDelegate.swift */,
+				5DB8DE791D533EE00087931A /* AudioFilesManager.swift */,
+				5DB8DE7B1D5344910087931A /* AudioRecordManager.swift */,
+				5DB8DE7D1D53620F0087931A /* ChatConfig.swift */,
 			);
 			path = ChatHelper;
 			sourceTree = "<group>";
@@ -262,6 +357,11 @@
 		5DF8FFC21D475205007E34FC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5DB8DE311D51D21C0087931A /* Contacts */,
+				5DB8DE431D51D21C0087931A /* Discover */,
+				5DB8DE441D51D21C0087931A /* Me */,
+				5DB8DE451D51D21C0087931A /* Message */,
+				5DB8DE281D51D0EA0087931A /* Tabbar */,
 				5DF800061D488D0F007E34FC /* Chat */,
 				5DF8FFCC1D47583A007E34FC /* CoreModule */,
 			);
@@ -481,13 +581,18 @@
 				5DF8FFEC1D475C8E007E34FC /* shake_match.wav in Resources */,
 				5DF8FFE71D475C8E007E34FC /* close.wav in Resources */,
 				5DF8FFEB1D475C8E007E34FC /* hello.amr in Resources */,
+				5DB8DE721D530AA70087931A /* TSContactsViewController.xib in Resources */,
 				5DF8FFE91D475C8E007E34FC /* call.caf in Resources */,
+				5DB8DE621D51E9830087931A /* TSMeViewController.xib in Resources */,
+				5DB8DE761D530AC20087931A /* TSContactTableViewCell.xib in Resources */,
 				5DF8FFFA1D475CAD007E34FC /* Kenny.jpg in Resources */,
 				5DF8FFF61D475C98007E34FC /* Expression.bundle in Resources */,
 				5DF8FFEA1D475C8E007E34FC /* camera.wav in Resources */,
 				5DF8FFB71D474DB8007E34FC /* Assets.xcassets in Resources */,
 				5DF8FFF41D475C93007E34FC /* message.json in Resources */,
 				5DF8FFF21D475C93007E34FC /* chat.json in Resources */,
+				5DB8DE661D51EE350087931A /* TSMeAvatarTableViewCell.xib in Resources */,
+				5DB8DE6A1D51EE4E0087931A /* TSImageTextTableViewCell.xib in Resources */,
 				5DF8FFE41D475C8E007E34FC /* pstncall.mp3 in Resources */,
 				5DF8FFF31D475C93007E34FC /* contact.json in Resources */,
 				5DF8FFED1D475C8E007E34FC /* shake_nomatch.wav in Resources */,
@@ -496,6 +601,7 @@
 				5DF8FFE61D475C8E007E34FC /* msgtoolong.wav in Resources */,
 				5DF8FFE31D475C8E007E34FC /* sendmsg.caf in Resources */,
 				5DF8FFE51D475C8E007E34FC /* msg.caf in Resources */,
+				5DB8DE6E1D52E7920087931A /* TSDiscoverViewController.xib in Resources */,
 				5DF8FFE21D475C8E007E34FC /* shake_sound_male.wav in Resources */,
 				5DF8FFB51D474DB8007E34FC /* Main.storyboard in Resources */,
 			);
@@ -557,21 +663,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA9F4DF1D50B1E100B6330B /* UIViewController+Extension.swift in Sources */,
+				5DB8DE7E1D53620F0087931A /* ChatConfig.swift in Sources */,
 				5DA9F4C11D4F4A3100B6330B /* AboutApp.swift in Sources */,
+				5DB8DE5C1D51D5630087931A /* TSMeViewController.swift in Sources */,
+				5DB8DE801D5363340087931A /* TSChatBaseCell.swift in Sources */,
 				5DF800271D4A080E007E34FC /* TSUserDefaults.swift in Sources */,
 				5DA9F4CF1D50709800B6330B /* PHAsset+Extension.swift in Sources */,
 				5DF8001F1D49E9A8007E34FC /* TSProgressHUD.swift in Sources */,
+				5DB8DE7C1D5344910087931A /* AudioRecordManager.swift in Sources */,
 				5DF8FFD01D4758BD007E34FC /* TSModel.swift in Sources */,
 				5DF800011D47633C007E34FC /* TSChatSubModel.swift in Sources */,
 				5DA9F4C91D4F643900B6330B /* NSDictionary+Extension.swift in Sources */,
+				5DB8DE751D530AC20087931A /* TSContactTableViewCell.swift in Sources */,
 				5DA9F4CB1D504C6400B6330B /* NSNotificationCenter+Block.swift in Sources */,
 				5DF8FFB21D474DB8007E34FC /* SecondViewController.swift in Sources */,
 				5DB8DE271D51C35D0087931A /* HttpManager+UploadImage.swift in Sources */,
+				5DB8DE781D5338030087931A /* AudioDelegate.swift in Sources */,
 				5DF800251D4A0493007E34FC /* TSUIColor+WeChat.swift in Sources */,
 				5DF800131D48A128007E34FC /* TSContactModel.swift in Sources */,
 				5DF800231D49FB32007E34FC /* TSGlobalHelper.swift in Sources */,
 				5DA9F4CD1D506F0600B6330B /* NSObject+String.swift in Sources */,
 				5DF8FFC71D47523B007E34FC /* TSAppMacro.swift in Sources */,
+				5DB8DE651D51EE350087931A /* TSMeAvatarTableViewCell.swift in Sources */,
 				5DF800191D48BC37007E34FC /* TSUserManager.swift in Sources */,
 				5DA9F4BB1D4F352900B6330B /* TSNavigationBar.swift in Sources */,
 				5DA9F4D51D50955A00B6330B /* UIImage+Extension.swift in Sources */,
@@ -586,12 +699,18 @@
 				5DF8FFFD1D475F29007E34FC /* TSUIimage+WeChat.swift in Sources */,
 				5D871D811D519E410049F28B /* TSResponseSerializer.swift in Sources */,
 				5DF8FFAE1D474DB8007E34FC /* AppDelegate.swift in Sources */,
+				5DB8DE691D51EE4E0087931A /* TSImageTextTableViewCell.swift in Sources */,
+				5DB8DE2A1D51D0FF0087931A /* TSTabbarViewController.swift in Sources */,
+				5DB8DE7A1D533EE00087931A /* AudioFilesManager.swift in Sources */,
+				5DB8DE711D530AA70087931A /* TSContactsViewController.swift in Sources */,
 				5DA9F4C51D4F5CDD00B6330B /* Device.swift in Sources */,
 				5DF8000F1D4892E8007E34FC /* TSLogger.swift in Sources */,
 				5DA9F4DD1D50AFD200B6330B /* UIView+Extension.swift in Sources */,
 				5DF800171D48B333007E34FC /* NSDate+Extension.swift in Sources */,
 				5DF8FFB01D474DB8007E34FC /* FirstViewController.swift in Sources */,
+				5DB8DE6D1D52E7920087931A /* TSDiscoverViewController.swift in Sources */,
 				5DF800291D4B653D007E34FC /* TSUIImageView+WeChat.swift in Sources */,
+				5DB8DE821D5363530087931A /* TSChatImageCell.swift in Sources */,
 				5DA9F4C71D4F5E9A00B6330B /* NSData+Extension.swift in Sources */,
 				5DF8001D1D49E8DF007E34FC /* TSApplicationManager.swift in Sources */,
 				5DA9F4D71D50A93C00B6330B /* UIImage+Orientation.swift in Sources */,
@@ -604,6 +723,7 @@
 				5DF8001B1D48BE47007E34FC /* TSYYTextLinePositionModifier.swift in Sources */,
 				5DF8002B1D4B6C4F007E34FC /* UIView+Frame.swift in Sources */,
 				5DF800111D489C03007E34FC /* TSMessageModel.swift in Sources */,
+				5DB8DE601D51D5A40087931A /* TSMessageViewController.swift in Sources */,
 				5DA9F4D91D50A96A00B6330B /* UIScreen+Extension.swift in Sources */,
 				5DA9F4D11D5071F900B6330B /* String+Extension.swift in Sources */,
 				5DF8000B1D488D2F007E34FC /* ImageFilesManager.swift in Sources */,
